@@ -1,0 +1,15 @@
+spring:
+  profiles:
+
+server:
+  port: 8443
+  http2:
+    enabled: true
+  ssl:
+    key-store: "classpath:keystore.p12"
+    key-store-password: changeit
+    key-password: changeit
+
+logging:
+  level:
+    org.springframework: info
