@@ -1,5 +1,5 @@
 # spring-reactive-demo
 
-##r2dbc
-##quartz
-##jpa
+## r2dbc
+## quartz
+## jpa
