@@ -1,5 +1,13 @@
 spring:
   profiles:
+  main:
+    allow-bean-definition-overriding: true
+  session:
+    store-type: redis
+  redis:
+    host: localhost
+    password:
+    port: 6379
 
 server:
   port: 8443
@@ -12,4 +20,5 @@ server:
 
 logging:
   level:
-    org.springframework: info
+    org:
+      springframework: info

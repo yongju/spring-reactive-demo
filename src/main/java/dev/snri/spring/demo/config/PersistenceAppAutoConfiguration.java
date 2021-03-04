@@ -1,8 +1,7 @@
-package com.example.demo.config;
+package dev.snri.spring.demo.config;
 
-import com.example.demo.util.YamlPropertySourceFactory;
+import dev.snri.spring.demo.util.YamlPropertySourceFactory;
 import com.zaxxer.hikari.HikariDataSource;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings;

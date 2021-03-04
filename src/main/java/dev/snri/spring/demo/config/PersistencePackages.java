@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package dev.snri.spring.demo.config;
 
 public class PersistencePackages {
 

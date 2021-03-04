@@ -1,7 +1,7 @@
-package com.example.demo.config;
+package dev.snri.spring.demo.config;
 
-import com.example.demo.schedule.SimpleJob;
-import com.example.demo.util.YamlPropertySourceFactory;
+import dev.snri.spring.demo.schedule.SimpleJob;
+import dev.snri.spring.demo.util.YamlPropertySourceFactory;
 import com.zaxxer.hikari.HikariDataSource;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.*;
@@ -71,10 +71,10 @@ public class QuartzAutoConfiguration {
                 scheduler.deleteJob(jobDetail.getKey());
             }
 
-            //Job과 트리거를 설정,
-            scheduler.scheduleJob(
-                    jobDetail,
-                    buildSimpleJobTrigger(10));
+//            //Job과 트리거를 설정,
+//            scheduler.scheduleJob(
+//                    jobDetail,
+//                    buildSimpleJobTrigger(10));
         } catch (SchedulerException e) {
             e.printStackTrace();
         }

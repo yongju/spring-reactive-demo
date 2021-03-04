@@ -1,4 +1,4 @@
-package com.example.demo.schedule;
+package dev.snri.spring.demo.schedule;
 
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.InterruptableJob;
