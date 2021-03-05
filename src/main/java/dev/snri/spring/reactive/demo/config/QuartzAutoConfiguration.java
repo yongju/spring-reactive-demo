@@ -1,7 +1,7 @@
-package dev.snri.spring.demo.config;
+package dev.snri.spring.reactive.demo.config;
 
-import dev.snri.spring.demo.schedule.SimpleJob;
-import dev.snri.spring.demo.util.YamlPropertySourceFactory;
+import dev.snri.spring.reactive.demo.schedule.SimpleJob;
+import dev.snri.spring.reactive.demo.util.YamlPropertySourceFactory;
 import com.zaxxer.hikari.HikariDataSource;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.*;

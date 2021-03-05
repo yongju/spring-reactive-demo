@@ -1,4 +1,4 @@
-package dev.snri.spring.demo.util;
+package dev.snri.spring.reactive.demo.util;
 
 import org.springframework.beans.factory.config.YamlPropertiesFactoryBean;
 import org.springframework.core.env.PropertiesPropertySource;

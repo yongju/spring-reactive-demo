@@ -1,4 +1,4 @@
-package dev.snri.spring.demo.domain.demo;
+package dev.snri.spring.reactive.demo.domain.app;
 
 import org.springframework.data.jpa.domain.AbstractPersistable;
 

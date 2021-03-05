@@ -1,4 +1,4 @@
-package dev.snri.spring.demo.web.session.dto;
+package dev.snri.spring.reactive.demo.web.session.dto;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

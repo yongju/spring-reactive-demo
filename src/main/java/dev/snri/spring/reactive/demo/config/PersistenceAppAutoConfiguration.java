@@ -1,6 +1,6 @@
-package dev.snri.spring.demo.config;
+package dev.snri.spring.reactive.demo.config;
 
-import dev.snri.spring.demo.util.YamlPropertySourceFactory;
+import dev.snri.spring.reactive.demo.util.YamlPropertySourceFactory;
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties;

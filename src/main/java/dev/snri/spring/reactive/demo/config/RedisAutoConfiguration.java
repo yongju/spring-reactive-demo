@@ -1,4 +1,4 @@
-package dev.snri.spring.demo.config;
+package dev.snri.spring.reactive.demo.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

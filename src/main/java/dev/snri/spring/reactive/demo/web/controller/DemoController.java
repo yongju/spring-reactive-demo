@@ -1,4 +1,4 @@
-package dev.snri.spring.demo.web.controller;
+package dev.snri.spring.reactive.demo.web.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.ReactiveRedisOperations;

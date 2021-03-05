@@ -1,6 +1,6 @@
-package dev.snri.spring.demo.web.session;
+package dev.snri.spring.reactive.demo.web.session;
 
-import dev.snri.spring.demo.web.session.dto.UserResponse;
+import dev.snri.spring.reactive.demo.web.session.dto.UserResponse;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

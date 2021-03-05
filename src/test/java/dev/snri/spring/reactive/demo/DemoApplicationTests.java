@@ -1,4 +1,4 @@
-package dev.snri.spring.demo;
+package dev.snri.spring.reactive.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
