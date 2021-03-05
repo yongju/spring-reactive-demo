@@ -4,15 +4,15 @@ spring:
     job-store-type: jdbc
     overwrite-existing-jobs: true
     jdbc:
-      initialize-schema: never
+      initialize-schema: always
     properties:
       org:
         quartz:
           datasource:
             url: jdbc:postgresql://localhost:5432/quartz
             driver-class-name: org.postgresql.Driver
-            username: postgres
-            password: 12341234
+            username: quartz_user
+            password: quartz12341234
           jobStore:
             class: org.quartz.impl.jdbcjobstore.JobStoreTX
             driverDelegateClass: org.quartz.impl.jdbcjobstore.PostgreSQLDelegate

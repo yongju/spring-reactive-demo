@@ -20,5 +20,9 @@ server:
 
 logging:
   level:
+    root: info
     org:
-      springframework: info
+      springframework:
+        core: info
+        web: info
+        r2dbc: debug
