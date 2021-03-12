@@ -23,6 +23,7 @@ logging:
     root: info
     org:
       springframework:
+        root: info
         core: info
-        web: info
+        web: debug
         r2dbc: debug
