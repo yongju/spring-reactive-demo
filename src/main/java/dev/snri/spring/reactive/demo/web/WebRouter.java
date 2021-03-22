@@ -23,10 +23,14 @@ public class WebRouter {
 
     @Bean
     public RouterFunction<ServerResponse> routeWebSessionHandler(WebSessionHandler handler) {
-        return RouterFunctions.route()
-                .GET("/web-session", accept(APPLICATION_JSON), handler::getSession)
-                .GET("/web-session/test", accept(APPLICATION_JSON), handler::testSession)
-                .build();
+        return RouterFunctions.route().path("/web-session", () ->
+                        RouterFunctions.route().nest(accept(APPLICATION_JSON), () ->
+                                RouterFunctions.route()
+                                        .GET(handler::getSession)
+                                        .GET("/test", handler::testSession)
+                                        .build()
+                        ).build()
+        ).build();
     }
 
 }
